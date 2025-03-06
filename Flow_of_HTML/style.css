@@ -24,7 +24,7 @@ li {
   font-weight: 300;
   text-transform: uppercase;
   display: inline-block;
-  width: 80px;
+  width: 80px;  
 }
 
 li:hover {
@@ -93,11 +93,14 @@ footer {
   text-align: center;
   position: relative;
   top: 40px;
+  clear: left;
 }
 
 .answer {
   border: 1px solid #466995;
   margin: 20px;
+  display: inline-block;
+  
 }
 
 .answer:hover {
