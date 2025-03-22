@@ -71,6 +71,8 @@ a.home {
   border-bottom: 1px solid #fff;
   color: #ffffff;
   font-weight: lighter;
+  word-spacing: 0.25em;
+  line-height: 1.4;
 }
 
 /* Editorial Sections */
