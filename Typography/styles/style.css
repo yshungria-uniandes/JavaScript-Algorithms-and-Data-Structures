@@ -1,3 +1,11 @@
+/* Definición de la fuente Glegoo local */
+@font-face {
+  font-family: "GlegooBanner";
+  src: url("../fonts/Glegoo-Regular.woff2") format("woff2"),
+    url("../fonts/Glegoo-Regular.woff") format("woff"),
+    url("../fonts/Glegoo-Regular.ttf") format("truetype");
+}
+
 /* Universal Styles */
 html {
   font-size: 16px;
