@@ -82,7 +82,7 @@ a.home {
   font-weight: lighter;
   word-spacing: 0.25em;
   line-height: 1.4;
-  font-family: "GlegooBanner", serif; /* Fuente personalizada */
+  font-family: "GlegooBanner"; /* Fuente personalizada */
   font-size: 20px; /* Tamaño de fuente */
 }
 
