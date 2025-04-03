@@ -2,6 +2,13 @@ html {
   font-size: 18px;
 }
 
+@font-face {
+  font-family: "Croissant One";
+  src: url("fonts/CroissantOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media only screen and (max-width: 1000px) {
   html {
     font-size: 16px;
@@ -15,7 +22,6 @@ html {
 }
 
 /* Header */
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -55,7 +61,6 @@ html {
 }
 
 /* Banner */
-
 .banner {
   display: flex;
   flex-direction: column;
@@ -82,7 +87,7 @@ html {
   padding-top: 1.11rem;
   font-size: 11rem;
   font-weight: 900;
-  font-family: "Abril Fantface", sans-serif;
+  font-family: "Abril Fatface", serif; /* Corregido el nombre de la fuente */
 }
 
 @media only screen and (max-width: 750px) {
@@ -106,12 +111,11 @@ html {
 }
 
 /* Journal */
-
 .journal {
   padding: 0 25% 4rem 25%;
   background-color: rgb(254, 231, 218);
   color: #4a4a4a;
-  font-family: "Work Sans", serif;
+  font-family: "Work Sans", sans-serif; /* Cambiado a sans-serif para consistencia */
 }
 
 .photo {
@@ -176,13 +180,13 @@ html {
 }
 
 /* Footer */
-
 footer {
   display: flex;
   align-items: center;
   padding: 0 1%;
   background-color: #212121;
   line-height: 1.5;
+  font-family: "Croissant One", "Merriweather", serif; /* Fuente principal + respaldo */
 }
 
 footer .image-container {
